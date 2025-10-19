@@ -12,12 +12,18 @@ URL: [Kaggle Dataset Link](https://www.kaggle.com/datasets/mikhail1681/connectio
 
 
 ## 📂 Project Structure 
-├───data/
-
-├───models/
-
-├───notebooks/
-
-├───results/
-
-└───src/
+│   README.md
+│   requirements.txt
+│
+├───data
+├───models
+├───notebooks
+│       exploration.ipynb
+│
+├───results
+│       metrics.json
+│
+└───src
+        evaluate_model.py
+        train_model.py
+        utils.py
